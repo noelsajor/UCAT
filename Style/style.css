@@ -1,0 +1,224 @@
+body {
+    font-family: Montserrat ;
+}
+.Banda-Superior {
+    height: 32px;
+    text-align: left;
+    background-color: #EFC044;
+}
+
+.Header {
+    height: 180px;
+    text-align: center;
+    display: flex;
+}
+
+.Titulo-Sitio, .Logo {
+    width: 50%;
+    margin: auto;
+}
+
+.Menu-Ppal {
+    background-color: #ECECEC;
+    height: 15%;
+}
+
+.Menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.Menu li {
+    border: 2px solid white;
+    padding: 2%;
+}
+
+.Hero_Section {
+    width: 100%;
+    display: flex;
+}
+
+.Contenido {
+    height: 180px;
+    margin-bottom: 2%; 
+}
+
+.Bloque-Contenido {
+    padding: 5%;
+}
+
+.Nuestros-servicios {
+    background-color: #ECECEC;
+    padding: 5%;
+}
+
+.Servicios {
+    display: grid;
+    gap: 40px 20px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.Servicio1, .Servicio2, .Servicio3, .Servicio4 {
+    height: 425px;
+    width: 344px;
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.Servicio1 {
+    background-color: #DB9C56;
+
+}
+
+.Servicio2 {
+    background-color: #7F9381;
+}
+
+.Servicio3 {
+    background-color: #BD4E4B;
+}
+
+.Servicio4 {
+    background-color: #88647D;
+}
+
+.Servicio1 p {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.Servicio1 h2 {
+    color: white;
+}
+
+.Servicio2 p {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.Servicio2 h2 {
+    color: white;
+}
+
+.Servicio3 p {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.Servicio3 h2 {
+    color: white;
+}
+
+.Servicio4 p {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.Servicio4 h2 {
+    color: white;
+}
+
+.Oferta-cursos {
+    display: flex;
+    padding: 5%;
+}
+
+.Cursos {
+    display: grid;
+    gap: 50px 70px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin-bottom: 15%;
+}
+
+.Curso {
+    background-color: #ECECEC;
+    height: 610px;
+    width: 347px;
+    padding: 30px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.Curso p {
+    margin: 0;
+    padding: 0;
+    color: #666666;
+}
+
+.Curso h4 {
+    color: #666666;
+}
+
+.Curso h2 {
+    color: #333333;
+}
+
+.Footer {
+    width: 100%;
+    height: 341px;
+    background-color: #666666;
+}
+
+.Mas-Info {
+    height: 243px;
+    width: 100%;
+    display: flex;
+}
+
+.info {
+    text-align: left;
+    padding: 4%;
+    width: 30%;
+
+}
+
+.info p {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.info h2 {
+    color: white;
+}
+
+
+.Legal {
+    background-color: #EFC044;
+    height: 98px;
+}
+
+.Mas-Legal {
+    display: flex;
+}
+
+.Copyright {
+    padding: 3%;
+    width: 50%;
+}
+
+.Autor {
+    padding: 3%;
+    width: 50%;
+}
+
+.general-wraper {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Boton {
+    background-color: #DB9C56;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 85px;
+    padding-right: 85px;
+}
